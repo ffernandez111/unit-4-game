@@ -17,17 +17,25 @@ text-align: center;
 }
 
 #crystal-ball-1 {
-   
+    float: right;
+    width: 150px;
+    margin-right: 50px;
 }
 
 #crystal-ball-2 {
-   float: right;
+   float: left;
+   width: 150px;
+   margin-left: 50px;
 }
 
 #crystal-ball-3 {
-  
+    float: right;
+    width: 150px;
+    margin-right: 50px;
 }
 
 #crystal-ball-4 {
-    float: right;
+    float: left;
+   width: 150px;
+   margin-left: 50px;
 }
