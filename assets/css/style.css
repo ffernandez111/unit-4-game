@@ -1,11 +1,7 @@
-.mystical-image {
-   
-}
 
-.body {
-    background-color: black; 
-    background-image: url("https://abstract.desktopnexus.com/wallpaper/1982628/");
-    background-repeat: no-repeat, repeat;
+
+body {
+    background: url("../images/mystical-background.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -16,6 +12,22 @@
 
 
 h1 {
-
+color: antiquewhite;
+text-align: center;
 }
 
+#crystal-ball-1 {
+   
+}
+
+#crystal-ball-2 {
+   float: right;
+}
+
+#crystal-ball-3 {
+  
+}
+
+#crystal-ball-4 {
+    float: right;
+}
