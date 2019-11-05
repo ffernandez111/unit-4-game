@@ -16,10 +16,17 @@ color: antiquewhite;
 text-align: center;
 }
 
+.instructions {
+    color: antiquewhite;
+}
+
+
+
 #crystal-ball-1 {
     float: right;
     width: 150px;
     margin-right: 50px;
+    
 }
 
 #crystal-ball-2 {
