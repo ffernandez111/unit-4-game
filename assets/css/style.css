@@ -11,11 +11,13 @@ h1 {
     color: antiquewhite;
     text-align: center;
     font-size: 50px;
+    font-family: fantasy;
 }
 
 .instructions {
     color: antiquewhite;
  float: left;  
+ font-family: fantasy;
   
 }
 
