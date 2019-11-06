@@ -6,22 +6,18 @@ body {
     background-size: cover;
 }
 
-.header {
-
-}
-
 
 h1 {
-color: antiquewhite;
-text-align: center;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 50px;
 }
 
 .instructions {
     color: antiquewhite;
-   text-align: center;
+  text-align: center;  
   
 }
-
 
 
 #crystal-ball-1 {
@@ -37,10 +33,10 @@ text-align: center;
 }
 
 #crystal-ball-2 {
-   float: left;
-   width: 150px;
-   margin-left: 50px;
-   border-style: groove;
+    float: left;
+    width: 150px;
+    margin-left: 50px;
+    border-style: groove;
     border-width: thick;
     border-color: red;
     padding: 5px;
@@ -60,21 +56,67 @@ text-align: center;
 
 #crystal-ball-4 {
     float: left;
-   width: 150px;
-   margin-left: 50px;
-   border-style: groove;
+    width: 150px;
+    margin-left: 50px;
+    border-style: groove;
     border-width: thick;
     border-color: yellow;
     padding: 5px;
     margin-top: 55px;
 }
 
+
+
+#blue-ball {
+    
+}
+
+#green-ball {
+    
+}
+
+#red-ball {
+    
+}
+
+#yellow-ball {
+
+}
+
 #step-1 {
-    vertical-align:bottom;
-    position:relative;
+    padding:80px 0 0;
+    display: inline-block;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline; }  
+    
 }
 
 #step-2 {
-    vertical-align:bottom;
-    position:relative;
+   
 }
+
+#step-3 {
+    
+}
+
+#step-4 {
+   
+}
+
+#step-5 {
+    
+}
+
+#step-6 {
+   
+}
+
+#step-7 {
+    
+}
+
+
+   
