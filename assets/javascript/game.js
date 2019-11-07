@@ -1,3 +1,4 @@
+
 var targetScore = (Math.floor(Math.random() *100)+19)
 var wins = 0;
 var losses =0;
@@ -11,8 +12,9 @@ var yellowBallValue = (Math.floor(Math.random() *10)+6)
 
 $("#crystal-ball-1").on("click", function(){
     console.log("1")
-  //score=blueBallValue + score;
+  score=blueBallValue + score;
   console.log(score)
+  $("#score").html("Score:" + score)
   if (score == targetScore){
     //wins++ - This is the same as wins = wins + 1
     wins=wins + 1; 

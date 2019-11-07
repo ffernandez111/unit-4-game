@@ -19,16 +19,6 @@
     
     <!-- Linking jQuery -->
     
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
-    
-    <!-- Linking JavaScript -->
-    <script class="js"></script>
-
-    <script src="assets/javascript/game.js"></script>
-
   </head>
   
   <body>
@@ -77,11 +67,11 @@
     
         <div class="card" style="width: 18rem;">
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Wins:</li>
+                  <li id="wins" class="list-group-item">Wins:</li>
                   <br>
-                  <li class="list-group-item">Losses:</li>
+                  <li id="losses" class="list-group-item">Losses:</li>
                   <br>
-                  <li class="list-group-item">Score:</li>
+                  <li id="score" class="list-group-item">Score:</li>
                   
                 </ul>
         </div>
@@ -130,7 +120,14 @@
 
 
 
+<script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    
+    
 
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 
   </body>
   </html>
