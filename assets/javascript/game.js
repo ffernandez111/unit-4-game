@@ -1,10 +1,11 @@
+$(document).ready(function() {
 
 
 // Generates random number to guess
     var targetScore = (Math.floor(Math.random() *102)+19)
 
 // Displays random number
-    $('#randomNumber').text(Random); 
+    $('#randomNumber').text(targetScore);
 
 // Variables to keep track of wins, losses and total
 var wins = 0;
@@ -94,4 +95,4 @@ $("#crystal-ball-4").on("click", function(){
 
 
 
-    
+})

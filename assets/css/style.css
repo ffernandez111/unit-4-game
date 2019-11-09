@@ -15,7 +15,7 @@ h1 {
 
 h2 {
     color: antiquewhite;
-    text-align: center;
+  
     font-size: 40px;
     font-family: monospace;
     
@@ -37,18 +37,6 @@ h2 {
 
 }
 
-#crystal-ball-1 {
-    float: right;
-    width: 150px;
-    margin-right: 50px;
-    border-style: groove;
-    border-width: thick;
-    border-color: blue;
-    padding: 5px;
-    margin-top: 55px;
-    
-}
-
 #crystal-ball-1:hover {
     opacity: 0.5;
     cursor: pointer;
@@ -68,6 +56,20 @@ h2 {
     opacity: 0.5;
     cursor: pointer;
 }
+
+#crystal-ball-1 {
+    float: right;
+    width: 150px;
+    margin-right: 50px;
+    border-style: groove;
+    border-width: thick;
+    border-color: blue;
+    padding: 5px;
+    margin-top: 55px;
+    
+}
+
+
 
 #crystal-ball-2 {
     float: left;
@@ -105,88 +107,6 @@ h2 {
 
 
 
-#step-1 {
-    padding:80px 0 0;
-    display: inline-block;
-    display: -moz-inline-box;
-    -moz-box-orient: vertical;
-    vertical-align: top;
-    zoom: 1;
-    *display: inline; 
-    color: antiquewhite;
-
-}  
-    
-#step-2 {
-    padding:80px 0 0;
-    display: inline-block;
-    display: -moz-inline-box;
-    -moz-box-orient: vertical;
-    vertical-align: top;
-    zoom: 1;
-    *display: inline; 
-    color: antiquewhite;
-
-}  
-    
-#step-3 {
-    padding:80px 0 0;
-    display: inline-block;
-    display: -moz-inline-box;
-    -moz-box-orient: vertical;
-    vertical-align: top;
-    zoom: 1;
-    *display: inline; 
-    color: antiquewhite;
-
-}  
-    
-#step-4 {
-    padding:80px 0 0;
-    display: inline-block;
-    display: -moz-inline-box;
-    -moz-box-orient: vertical;
-    vertical-align: top;
-    zoom: 1;
-    *display: inline; 
-    color: antiquewhite;
-
-}  
-    
-#step-5 {
-    padding:80px 0 0;
-    display: inline-block;
-    display: -moz-inline-box;
-    -moz-box-orient: vertical;
-    vertical-align: top;
-    zoom: 1;
-    *display: inline; 
-    color: antiquewhite;
-
-}  
-    
-#step-6 {
-    padding:80px 0 0;
-    display: inline-block;
-    display: -moz-inline-box;
-    -moz-box-orient: vertical;
-    vertical-align: top;
-    zoom: 1;
-    *display: inline; 
-    color: antiquewhite;
-
-}  
-#step-7 {
-    padding:80px 0 0;
-    display: inline-block;
-    display: -moz-inline-box;
-    -moz-box-orient: vertical;
-    vertical-align: top;
-    zoom: 1;
-    *display: inline; 
-    color: antiquewhite;
-
-}  
 .random-number {
     color: antiquewhite;
     text-align: center;
