@@ -1,10 +1,10 @@
 
 
 // Generates random number to guess
-    var targetScore = (Math.floor(Math.random() *100)+19)
+    var targetScore = (Math.floor(Math.random() *102)+19)
 
 // Displays random number
-    //$('#randomNumber').text(Random); 
+    $('#randomNumber').text(Random); 
 
 // Variables to keep track of wins, losses and total
 var wins = 0;
@@ -12,10 +12,10 @@ var losses =0;
 var score =0;
 
 //Generate random number for each crystal
-var blueBallValue = (Math.floor(Math.random() *10)+3)
-var greenBallValue = (Math.floor(Math.random() *10)+4)
-var redBallValue = (Math.floor(Math.random() *10)+5) 
-var yellowBallValue = (Math.floor(Math.random() *10)+6)
+var blueBallValue = (Math.floor(Math.random() *12)+3)
+var greenBallValue = (Math.floor(Math.random() *12)+6)
+var redBallValue = (Math.floor(Math.random() *12)+9) 
+var yellowBallValue = (Math.floor(Math.random() *12)+1)
 
 
 $("#crystal-ball-1").on("click", function(){

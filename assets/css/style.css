@@ -29,11 +29,12 @@ h2 {
 
 }
 
-.card {
+.col-sm-3 {
     padding-top: 25px;
-    font-weight: bold;
-    font-style: italic;
     font-size: 40px;
+    color: antiquewhite;
+    font-family: monospace;
+
 }
 
 #crystal-ball-1 {
@@ -112,8 +113,80 @@ h2 {
     vertical-align: top;
     zoom: 1;
     *display: inline; 
+    color: antiquewhite;
+
 }  
     
+#step-2 {
+    padding:80px 0 0;
+    display: inline-block;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline; 
+    color: antiquewhite;
+
+}  
+    
+#step-3 {
+    padding:80px 0 0;
+    display: inline-block;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline; 
+    color: antiquewhite;
+
+}  
+    
+#step-4 {
+    padding:80px 0 0;
+    display: inline-block;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline; 
+    color: antiquewhite;
+
+}  
+    
+#step-5 {
+    padding:80px 0 0;
+    display: inline-block;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline; 
+    color: antiquewhite;
+
+}  
+    
+#step-6 {
+    padding:80px 0 0;
+    display: inline-block;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline; 
+    color: antiquewhite;
+
+}  
+#step-7 {
+    padding:80px 0 0;
+    display: inline-block;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline; 
+    color: antiquewhite;
+
+}  
 .random-number {
     color: antiquewhite;
     text-align: center;
