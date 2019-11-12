@@ -5,7 +5,7 @@ $(document).ready(function() {
     var targetScore = (Math.floor(Math.random() *102)+19)
 
 // Displays random number
-    $('#randomNumber').text(targetScore);
+    $("#randomNumber").text(targetScore);
 
 // Variables to keep track of wins, losses and total
 var wins = 0;
@@ -18,10 +18,14 @@ var greenBallValue = (Math.floor(Math.random() *12)+6)
 var redBallValue = (Math.floor(Math.random() *12)+9) 
 var yellowBallValue = (Math.floor(Math.random() *12)+1)
 
+//displays wins and losses
+$("#Wins").text(wins);
+$("#Losses").text(losses);
+
 
 $("#crystal-ball-1").on("click", function(){
     console.log("1")
-  score=blueBallValue + score;
+  score+=blueBallValue;
   console.log(score)
   $("#score").html("Score:" + score)
   if (score == targetScore){
@@ -39,7 +43,7 @@ $("#crystal-ball-1").on("click", function(){
 
 $("#crystal-ball-2").on("click", function(){
     console.log("2")
-  score=blueBallValue + score;
+  score+=redBallValue;
   console.log(score)
   $("#score").html("Score:" + score)
   if (score == targetScore){
@@ -57,7 +61,7 @@ $("#crystal-ball-2").on("click", function(){
 
 $("#crystal-ball-3").on("click", function(){
     console.log("3")
-  score=blueBallValue + score;
+  score+=greenBallValue;
   console.log(score)
   $("#score").html("Score:" + score)
   if (score == targetScore){
@@ -75,7 +79,7 @@ $("#crystal-ball-3").on("click", function(){
 
 $("#crystal-ball-4").on("click", function(){
     console.log("4")
-  score=blueBallValue + score;
+  score+=yellowBallValue ;
   console.log(score)
   $("#score").html("Score:" + score)
   if (score == targetScore){
